@@ -23,7 +23,7 @@ public class Main {
 
     // в этом методе формируется Map (ключ, значение):
     // "ключ" - имя автора , "значение" - его книги
-    static Map<String, Set<String>> authorAllBooks(){
+    public static Map<String, Set<String>> authorAllBooks(){
         Map<String, Set<String>> authorAndWorks = new TreeMap<>();
         authorAndWorks.put("Taras Shevchenko", MyLibrary.bookShevchenko());
         authorAndWorks.put("Lesya Ukrainka", MyLibrary.bookUkrainka());
@@ -32,7 +32,7 @@ public class Main {
     }
 
     // метод возвращает список книг, в зависимости от введенного имени автора
-    static Set<String> listAuthorBooks(String inputAuthor, Map<String, Set<String>> authorAllBooks) {
+    public static Set<String> listAuthorBooks(String inputAuthor, Map<String, Set<String>> authorAllBooks) {
         return authorAllBooks.get(inputAuthor);
     }
 }

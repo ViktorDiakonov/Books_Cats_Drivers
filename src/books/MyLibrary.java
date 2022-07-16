@@ -7,7 +7,7 @@ public class MyLibrary {
 
     // здесь создаю несколько коллекций с уникальными названиями книг, используя Set и
     // реализую отображение этих книг по алфавиту (TreeSet).
-    static Set<String> bookShevchenko() {
+    public static Set<String> bookShevchenko() {
         Set<String> bookShevchenko = new TreeSet<>();
         bookShevchenko.add("Завещание");
         bookShevchenko.add("Кобзарь");
@@ -15,7 +15,7 @@ public class MyLibrary {
         return bookShevchenko;
     }
 
-    static Set<String> bookUkrainka() {
+    public static Set<String> bookUkrainka() {
         Set<String> bookUkrainka = new TreeSet<>();
         bookUkrainka.add("Forest song");
         bookUkrainka.add("Noblewoman");
@@ -23,7 +23,7 @@ public class MyLibrary {
         return bookUkrainka;
     }
 
-    static Set<String> bookNosov() {
+    public static Set<String> bookNosov() {
         Set<String> bookNosov = new TreeSet<>();
         bookNosov.add("Dreamers");
         bookNosov.add("Dunno on the Moon");
