@@ -1,9 +1,9 @@
 package cats;
 
 public class Cat {
-    String city;
-    String colour;
-    String name;
+    public String city;
+    public String colour;
+    public String name;
 
     public Cat(String city, String colour, String name) {
         this.city = city;

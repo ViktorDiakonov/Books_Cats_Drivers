@@ -12,7 +12,7 @@ public class Main {
         System.out.println("""
                 List of cats after selection for the role:
                 - "black cats", going to filming "Black cat" to Odessa
-                - "red cats", go to the shooting of the cartoon "Garfield" to Holliwood
+                - "red cats", go to the shooting of the cartoon "Garfield" to Hollywood
                 - who did not pass "by color", going home""");
         List<Cat> list = newCity();
         System.out.println(list);
